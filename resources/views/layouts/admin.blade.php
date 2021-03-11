@@ -8,7 +8,8 @@
         <title>@yield('title')</title>
         <script src="{{ secure_asset('js/app.js') }}" defer></script>
         <link rel="dns-prefetch" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googlepis.com/css? family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+        <link href="https://fonts.googlepis.com/css?family=Raleway:300,400,600" rel="stylesheet" type="text/css">
+        <link href="{{ secure_asset('css/app.css') }}" rel="stylesheet">
         <link href="{{ secure_asset('css/admin.css') }}" rel="stylesheet">
     </head>
     <body>
