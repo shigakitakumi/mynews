@@ -32,7 +32,7 @@
                                     {{ $post->updated_at->format('Y年m月d日') }}
                                 </div>
                                 <div class="title">
-                                    {{ str_limit($post->title, 150) }}
+                                   {{ str_limit($post->title, 150) }}
                                 </div>
                                 <div class="body mt-3">
                                     {{ str_limit($post->body, 1500) }}
