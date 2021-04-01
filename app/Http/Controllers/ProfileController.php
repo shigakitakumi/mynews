@@ -19,6 +19,6 @@ class ProfileController extends Controller
             $headline = null;
         }
         
-        return view('profile.index', ['headlime' => $headline, 'posts' => $posts]);
+        return view('profile.index', ['headline' => $headline, 'posts' => $posts]);
     }
 }
